@@ -1,0 +1,44 @@
+{
+  "name": "tf2-item-utils",
+  "version": "1.0.0",
+  "description": "Utility functions for parsing and formatting Team Fortress 2 items on Steam",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js",
+    "./static": "./dist/static.js"
+  },
+  "typesVersions": {
+    "*": {
+      "static": [
+        "dist/static.d.ts"
+      ]
+    }
+  },
+  "scripts": {
+    "test": "jest",
+    "test-watch": "jest --watch",
+    "docs": "npx typedoc --out docs src/index.ts --excludePrivate  --hideBreadcrumbs --hideInPageTOC --entryPointStrategy expand && rm docs/README.md",
+    "lint": "./node_modules/.bin/eslint src/"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "tf2-static-schema": "^1.13.1"
+  },
+  "eslintConfig": ".eslinrc.json",
+  "devDependencies": {
+    "@types/jest": "^27.0.1",
+    "@typescript-eslint/eslint-plugin": "^4.32.0",
+    "@typescript-eslint/parser": "^4.32.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-typescript": "^0.14.0",
+    "jest": "^27.2.4",
+    "ts-jest": "^27.0.5",
+    "tsd-jsdoc": "^2.5.0",
+    "typedoc": "^0.22.5",
+    "typedoc-plugin-markdown": "^3.11.2",
+    "typedoc-plugin-rename-defaults": "^0.4.0",
+    "typescript": "^4.4.3"
+  }
+}

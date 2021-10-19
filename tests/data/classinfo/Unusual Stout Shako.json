@@ -1,0 +1,91 @@
+{
+  "icon_url": "fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZULUrsm1j-9xgEYYwsVVB7whytLicPpMv6NGucF1YxlspEGjjQzwVEtNrLmaW4zIFyQUaFcCaVs8lzuXHdruZFnBIXnorpIOVK4QLiD-sI",
+  "icon_url_large": "fWFc82js0fmoRAP-qOIPu5THSWqfSmTELLqcUywGkijVjZULUrsm1j-9xgEYYwsVVB7whytLicPpMv6NGucF1YxlspEGjjQzwVEtNrLmaW4zIFyQUaFcCaVs8lzuXHdruZFnBIXnorpIOVK4QLiD-sI",
+  "icon_drag_url": "",
+  "name": "Unusual Stout Shako",
+  "market_hash_name": "Unusual Stout Shako",
+  "market_name": "Unusual Stout Shako",
+  "name_color": "8650AC",
+  "background_color": "3C352E",
+  "type": "Level 1 Hat",
+  "tradable": "1",
+  "marketable": "1",
+  "commodity": "0",
+  "market_tradable_restriction": "7",
+  "market_marketable_restriction": "0",
+  "fraudwarnings": "",
+  "descriptions": {
+    "0": {
+      "type": "text",
+      "value": "★ Unusual Effect: Circling TF Logo",
+      "color": "ffd700",
+      "app_data": ""
+    },
+    "1": {
+      "type": "text",
+      "value": "The grand achievement of\\nVictorian military fashion.",
+      "app_data": ""
+    }
+  },
+  "actions": {
+    "0": {
+      "name": "Item Wiki Page...",
+      "link": "http://wiki.teamfortress.com/scripts/itemredirect.php?id=251&lang=en_US"
+    },
+    "1": {
+      "name": "Inspect in Game...",
+      "link": "steam://rungame/440/76561202255233023/+tf_econ_item_preview%20S%owner_steamid%A%assetid%D7848129427670554325"
+    }
+  },
+  "market_actions": {
+    "0": {
+      "name": "Inspect in Game...",
+      "link": "steam://rungame/440/76561202255233023/+tf_econ_item_preview%20M%listingid%A%assetid%D7848129427670554325"
+    }
+  },
+  "tags": {
+    "0": {
+      "internal_name": "rarity4",
+      "name": "Unusual",
+      "category": "Quality",
+      "color": "8650AC",
+      "category_name": "Quality"
+    },
+    "1": {
+      "internal_name": "misc",
+      "name": "Cosmetic",
+      "category": "Type",
+      "category_name": "Type"
+    },
+    "2": {
+      "internal_name": "Soldier",
+      "name": "Soldier",
+      "category": "Class",
+      "category_name": "Class"
+    }
+  },
+  "app_data": {
+    "def_index": "251",
+    "quality": "5",
+    "slot": "Cosmetic",
+    "filter_data": {
+      "931505789": {
+        "element_ids": {
+          "0": "991457757",
+          "1": "8"
+        }
+      },
+      "1662615936": {
+        "element_ids": {
+          "0": "991457757",
+          "1": "3"
+        }
+      }
+    },
+    "player_class_ids": {
+      "0": "3"
+    },
+    "highlight_color": "7a6e65"
+  },
+  "classid": "11040973"
+}

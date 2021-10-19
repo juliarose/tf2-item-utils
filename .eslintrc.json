@@ -1,0 +1,83 @@
+{
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "root": true,
+  "ignorePatterns": ["*spec.ts"],
+  "overrides": [
+    {
+      "files": ["**/*.ts", "**/*.tsx"]
+    }
+  ],
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "rules": {
+    "@typescript-eslint/no-explicit-any": "off",
+    "jsdoc/require-description-complete-sentence": [
+      "error", {
+        "tags": [
+          "see",
+          "copyright"
+        ]
+      }
+    ],
+    "no-multiple-empty-lines": [
+      "error",
+      {
+        "max": 2
+      }
+    ],
+    "indent": [
+      "error",
+      4,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "no-empty": [
+      "error",
+      {
+        "allowEmptyCatch": true
+      }
+    ],
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "no-cond-assign": [
+      "off"
+    ],
+    "no-useless-escape": [
+      "off"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "no-redeclare": [
+      2,
+      {
+        "builtinGlobals": true
+      }
+    ],
+    "no-console": 0,
+    "no-undef": [
+      "error"
+    ]
+  },
+  "plugins": [
+    "typescript",
+    "jsdoc"
+  ],
+  "globals": {
+  }
+}
