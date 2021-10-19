@@ -2,7 +2,7 @@
 
 tf2-item-utils is a module for parsing Team Fortress 2 item objects on Steam.
 
-* [Docs](docs/modules)
+* [Docs](docs/modules.md)
 
 ## Basic Usage
 
