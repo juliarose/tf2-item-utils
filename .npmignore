@@ -40,3 +40,4 @@ tmp
 typedoc.json
 jest.config.js
 docs.json
+tsconfig.json
