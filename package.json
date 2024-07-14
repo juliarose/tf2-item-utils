@@ -16,6 +16,8 @@
     }
   },
   "scripts": {
+    "prepare": "npm run build-ts",
+    "build-ts": "tsc",
     "test": "jest",
     "test-watch": "jest --watch",
     "docs": "npx typedoc --out docs src/index.ts --excludePrivate  --hideBreadcrumbs --hideInPageTOC --entryPointStrategy expand && rm docs/README.md",
@@ -26,7 +28,6 @@
   "dependencies": {
     "tf2-static-schema": "^1.13.1"
   },
-  "eslintConfig": ".eslinrc.json",
   "devDependencies": {
     "@types/jest": "^27.0.1",
     "@typescript-eslint/eslint-plugin": "^4.32.0",
